@@ -21,6 +21,9 @@ import Foundation
  return type:
     - Int
  
+ //comments
+ 
+ 
  FUNCTION 2:
  create a function that will convert and print a string into all caps
  function name:
