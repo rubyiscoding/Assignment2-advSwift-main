@@ -31,6 +31,7 @@
 		DB0756CA28FE0EBA0001A85F /* Question1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question1.swift; sourceTree = "<group>"; };
 		DB0756CC28FE0EC40001A85F /* Question2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question2.swift; sourceTree = "<group>"; };
 		DB0756CE28FE0ECF0001A85F /* Question3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question3.swift; sourceTree = "<group>"; };
+		E5A572772A43DED300128F32 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +68,7 @@
 				DB0756CA28FE0EBA0001A85F /* Question1.swift */,
 				DB0756CC28FE0EC40001A85F /* Question2.swift */,
 				DB0756CE28FE0ECF0001A85F /* Question3.swift */,
+				E5A572772A43DED300128F32 /* README.md */,
 			);
 			path = "Assignment2-advSwift";
 			sourceTree = "<group>";

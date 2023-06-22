@@ -59,11 +59,11 @@ func allCap(string: String) -> String {
  */
 
 func middle(array: [Int]) -> Int? {
-    let count = array.count
+    let count = array.count // Get the number of elements in the array
     guard count % 2 != 0 else {
         return nil
     }
     
-    let middleIndex = count / 2
+    let middleIndex = count / 2 // Calculate the index of the middle element
     return array[middleIndex]
 }

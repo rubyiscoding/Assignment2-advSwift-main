@@ -30,8 +30,8 @@ class Computer {
     var cpu: String
     var gpu: String
     var ram: Int
-    var state: String = "Off"
-    var temp: Double
+    var state: String = "Off" // Represents the current state of the computer
+    var temp: Double // Represents the temperature of the computer
     
     init(cpu: String, gpu: String, ram: Int, temp: Double) {
         self.cpu = cpu
@@ -77,16 +77,16 @@ class Laptop: Computer {
     var isTouchScreen: Bool
     
     init(cpu: String, gpu: String, ram: Int, state: String, temp: Double, isRamUpgradable: Bool, screenSize: Double, isTouchScreen: Bool) {
-        self.isRamUpgradable = isRamUpgradable
-        self.screenSize = screenSize
-        self.isTouchScreen = isTouchScreen
-        super.init(cpu: cpu, gpu: gpu, ram: ram, temp: temp)
-        self.state = state
+            self.isRamUpgradable = isRamUpgradable // Initializes the isRamUpgradable property
+            self.screenSize = screenSize // Initializes the screenSize property
+            self.isTouchScreen = isTouchScreen // Initializes the isTouchScreen property
+            super.init(cpu: cpu, gpu: gpu, ram: ram, temp: temp) // Calls the initializer of the parent class
+            self.state = state // Sets the state of the laptop
     }
     
     override func upgradeRam(newAmount: Int) {
         if isRamUpgradable {
-            ram = newAmount
+            ram = newAmount // Upgrades the RAM of the laptop if it is upgradable
         }
     }
     
