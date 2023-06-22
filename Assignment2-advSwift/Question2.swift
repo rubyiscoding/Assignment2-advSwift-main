@@ -26,6 +26,7 @@ import Foundation
     - 
  
  */
+
 class Rectangle {
     var height: Int
     var width: Int
@@ -42,14 +43,7 @@ class Rectangle {
     }
     
     func printColor() {
-        print("The color of the rectangle is \(color)")
+        print("The color of the rectangle is \(color).")
     }
 }
-
-let rectangle = Rectangle(height: 5, width: 10, color: "Red")
-let perimeter = rectangle.getPerimeter()
-print("The value of perimeter is: \(perimeter)")
-rectangle.printColor()
-
-
 
