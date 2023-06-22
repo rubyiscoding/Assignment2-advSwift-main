@@ -26,3 +26,30 @@ import Foundation
     - 
  
  */
+class Rectangle {
+    var height: Int
+    var width: Int
+    var color: String
+    
+    init(height: Int, width: Int, color: String) {
+        self.height = height
+        self.width = width
+        self.color = color
+    }
+    
+    func getPerimeter() -> Int {
+        return 2 * (height + width)
+    }
+    
+    func printColor() {
+        print("The color of the rectangle is \(color)")
+    }
+}
+
+let rectangle = Rectangle(height: 5, width: 10, color: "Red")
+let perimeter = rectangle.getPerimeter()
+print("The value of perimeter is: \(perimeter)")
+rectangle.printColor()
+
+
+
