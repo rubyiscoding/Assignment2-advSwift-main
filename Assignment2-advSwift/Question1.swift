@@ -21,17 +21,15 @@ import Foundation
  return type:
     - Int
  **/
-func calculateArea (height:Int,width:Int)-> Int
-{
-let area = height * width
-return area 
+
+// Question1.swift
+
+func calculateArea(height: Int, width: Int) -> Int {
+    return height * width
 }
 
-let area = calculateArea(height:5,width:5)
-print("The area of square is:\(area)")
  
- 
- FUNCTION 2:
+ /**FUNCTION 2:
  create a function that will convert and print a string into all caps
  function name:
     - allCap
@@ -40,17 +38,14 @@ print("The area of square is:\(area)")
  return type:
     - String
 **/
-func  allCap(string1: String)-> String
-{
-let allcaps = string1.uppercased()
 
-return allcaps
+func allCap(string: String) -> String {
+    return string.uppercased()
 }
 
-let string2 = allCap(string1: "kamal")
-print("The letters after converting are:\(string2)")
+
  
- FUNCTION 3:
+ /**FUNCTION 3:
  create a function that will return the middle element of an array
  function name:
     - middle
