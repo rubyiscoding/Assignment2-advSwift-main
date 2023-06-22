@@ -45,7 +45,7 @@ print("Perimeter: \(rectangle.getPerimeter())")
 rectangle.printColor()
 
 
-//Question 3
+//Question 3- usage
 
 let laptop = Laptop(cpu: "Intel i7", gpu: "NVIDIA GeForce", ram: 8, state: "Off", temp: 40.0, isRamUpgradable: true, screenSize: 15.6, isTouchScreen: true)
 
